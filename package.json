@@ -8,7 +8,10 @@
   "license": "ISC",
   "scripts": {
     "start": "nodemon server.js",
-    "test": "jest"
+    "test:unit": "jest",
+    "test:e2e": "cypress run",
+    "lint": "eslint .",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
